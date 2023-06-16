@@ -1,0 +1,50 @@
+/* Write your CSS here */
+
+.container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+}
+
+.heading {
+  font-size: 32px;
+}
+
+.hide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 200px;
+  margin: 0 30px 0 30px;
+}
+
+.hide-button {
+  height: 30px;
+  width: 200px;
+  color: #dd1264;
+  border-radius: 8px;
+  margin: 30px;
+  border: none;
+}
+
+.name {
+  background-color: #fddddb;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 8px;
+  padding: 10px 40px 10px 40px;
+  color: #000000;
+}
